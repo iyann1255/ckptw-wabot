@@ -12,7 +12,7 @@ global.config = {
     bot: {
         name: "CKPTW", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
-        phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
+        phoneNumber: "6289654275485", // Nomor telepon bot (opsional jika menggunakan QR code)
         thumbnail: "https://repository-images.githubusercontent.com/753096396/84e76ef0-ba19-4c87-8ec2-ea803b097479", // Gambar thumbnail bot
         groupJid: "", // JID untuk group bot (opsional jika tidak menggunakan requireBotGroupMembership)
         newsletterJid: "120363416372653441@newsletter", // JID untuk saluran bot
@@ -73,16 +73,16 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
-        organization: "", // Nama organisasi owner bot
-        id: "", // Nomor telepon owner bot
+        name: "asepp", // Nama owner bot
+        organization: "CKAI", // Nama organisasi owner bot
+        id: "62895167204", // Nomor telepon owner bot
         co: [""] // Nomor co-owner bot
     },
 
     // Stiker bot
     sticker: {
         packname: "", // Nama paket stiker
-        author: "github.com/itsreimau/ckptw-wabot" // Pembuat stiker
+        author: "ASEPP" // Pembuat stiker
     },
 
     // Sistem bot
@@ -103,7 +103,7 @@ global.config = {
         timeZone: "Asia/Jakarta", // Zona waktu bot
         uploaderHost: "Nyxs", // Host uploader untuk menyimpan media (Tersedia: Catbox, Cloudku, Erhabot, FastUrl, IDNet, Litterbox, Nyxs, Pomf, Quax, Ryzen, Shojib, TmpErhabot, Uguu, Videy)
         useCoin: true, // Pakai koin
-        usePairingCode: false, // Pakai kode pairing untuk koneksi
+        usePairingCode: true, // Pakai kode pairing untuk koneksi
         useServer: false // Jalankan bot dengan server
     }
 };
